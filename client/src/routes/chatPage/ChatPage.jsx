@@ -1,4 +1,5 @@
 import "./chatPage.css";
+import NewPrompt from "../../components/newPrompt/NewPrompt";
 
 const ChatPage = () => {
   return (
@@ -43,7 +44,8 @@ const ChatPage = () => {
           <div className="message">Test Message from ai</div>
           <div className="message user">Test Message from user</div>
           <div className="message">Test Message from ai</div>
-          <div className="message user">Test Message from user</div>
+          <div className="message user">Test Message from user杨幂</div>
+          <NewPrompt />
         </div>
       </div>
     </div>
